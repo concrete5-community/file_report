@@ -1,3 +1,6 @@
+1.0
+- Version bump, approved by PRB.
+
 0.9.1
 - Add DataTables to support pagination.
 - Add divider between tables.
