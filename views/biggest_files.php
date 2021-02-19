@@ -19,7 +19,7 @@ defined('C5_EXECUTE') or die('Access Denied.');
             foreach ($files as $file) {
                 ?>
                 <tr>
-                    <td><?php echo $numberService->formatSize($file->getSize()); ?></td>
+                    <td data-order="<?php echo $file->getSize() ?>"><?php echo $numberService->formatSize($file->getSize()); ?></td>
                     <td>
                         <span class="help" title="<?php echo t('File ID: %d', $file->getId()); ?>">
                             <?php echo e($file->getName()); ?>
@@ -43,7 +43,7 @@ $(document).ready(function() {
         searching: false,
         lengthChange: false,
         info: false,
-        order: [],
+        order: [[ 0, "desc" ]],
         dom: 'rtp'
     });
 })

@@ -44,7 +44,7 @@ $(document).ready(function() {
         searching: false,
         lengthChange: false,
         info: false,
-        order: [],
+        order: [[ 0, "desc" ]],
         <?php echo count($files) > 10 ? '' : 'paging: false,'; ?>
         dom: 'rtp'
     });

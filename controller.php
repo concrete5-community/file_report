@@ -14,7 +14,7 @@ class Controller extends Package
 {
     protected $pkgHandle = 'file_report';
     protected $appVersionRequired = '8.0.0';
-    protected $pkgVersion = '1.0.2';
+    protected $pkgVersion = '1.0.3';
     protected $pkgAutoloaderRegistries = [
         'src/FileReport' => '\A3020\FileReport',
     ];

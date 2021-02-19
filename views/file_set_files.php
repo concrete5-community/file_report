@@ -47,7 +47,8 @@ $(document).ready(function() {
         lengthChange: false,
         info: false,
         <?php echo count($results) > 10 ? '' : 'paging: false,'; ?>
-        dom: 'rtp'
+        dom: 'rtp',
+        order: [[ 0, "desc" ]]
     });
 })
 </script>
