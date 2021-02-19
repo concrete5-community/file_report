@@ -1,0 +1,36 @@
+.charts-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.charts-container + .charts-container {
+    border-top: 0;
+}
+
+.charts-container header {
+    font-weight: 300;
+    color: #aaa;
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+.chart-container {
+    text-align: center;
+}
+
+.chart-container canvas {
+    height: 40%;
+}
+
+@media (min-width:1200px) {
+    .table-container > div:first-child {
+        border-right: 1px solid #eee;
+    }
+}
+
+.help {
+    cursor: help;
+}
