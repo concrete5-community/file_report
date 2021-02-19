@@ -9,9 +9,6 @@ defined('C5_EXECUTE') or die('Access Denied.');
 
 <p>
     <?php
-    echo t2("You have %s file","You have %s files", $totalNumberOfFiles, $totalNumberOfFiles);
-    echo ' ';
-    echo t('taking up %s of disk space.', $numberService->formatSize($totalFileSize));
+    echo t2('You have %s file taking up %s of disk space.', 'You have %s files taking up %s of disk space.', $totalNumberOfFiles, $numberService->formatSize($totalFileSize));
     ?>
 </p>
-

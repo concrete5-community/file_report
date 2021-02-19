@@ -29,7 +29,7 @@ defined('C5_EXECUTE') or die('Access Denied.');
             }
         } else {
             ?>
-            <tr><td colspan="3"><?php echo t('No files have been downloaded yet'); ?></td></tr>
+            <tr><td colspan="3"><?php echo t('No files have been downloaded yet.'); ?></td></tr>
             <?php
         }
         ?>
